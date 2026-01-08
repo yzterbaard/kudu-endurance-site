@@ -3,10 +3,259 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kudu Endurance</title>
+  <title>Kudu Endurance – Endurance Coaching for Serious Cyclists</title>
+  <meta name="description" content="Kudu Endurance offers evidence-informed endurance coaching for serious amateur cyclists who want to ride longer, stronger, and stay healthy." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Kudu Endurance – site setup test</h1>
-  <p>If you're seeing this at your Netlify URL or your .co.uk domain, the plumbing is working.</p>
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">K</span>
+        <span class="logo-text">Kudu Endurance</span>
+      </a>
+      <nav class="nav">
+        <a href="#philosophy" class="nav-link">Philosophy</a>
+        <a href="#who-i-help" class="nav-link">Who I Help</a>
+        <a href="#coaching" class="nav-link">Coaching</a>
+        <a href="blog.html" class="nav-link">Articles</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link nav-link-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="top">
+      <div class="hero-media">
+        <video class="hero-video" autoplay muted loop playsinline poster="assets/img/hero-poster.jpg">
+          <source src="assets/video/hero.mp4" type="video/mp4" />
+          <!-- Fallback if video can't load -->
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Endurance coaching for real-world riders</p>
+          <h1>Engineered training for cyclists who want to go the distance.</h1>
+          <p class="hero-subtitle">
+            Kudu Endurance helps serious amateurs build durable, metabolically healthy engines – without living in the pain cave or burning out.
+          </p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Apply for coaching</a>
+            <a href="#philosophy" class="btn btn-ghost">Explore the philosophy</a>
+          </div>
+          <p class="hero-footnote">
+            Built for busy professionals: lawyers, engineers, founders, and anyone who wants to ride longer, stronger, and leaner – without wrecking their health.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section" id="philosophy">
+      <div class="container section-inner">
+        <header class="section-header">
+          <h2>Training for durability, not just today’s power file.</h2>
+          <p>
+            Most cyclists are over-fat, under-recovered, and spending too much time in the wrong intensity zones. Kudu Endurance takes a longer view: we build fatigue resistance, robust metabolic health, and an engine that still works in hour five.
+          </p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Durability over fireworks</h3>
+            <p>
+              Extend how long you can hold useful power, not just your 5-minute best. More resilient long rides, fewer “I exploded at hour three” stories.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Metabolic health first</h3>
+            <p>
+              Smart fuelling and a strong aerobic base, not permanent carb anarchy. Use carbohydrates strategically instead of living on sugar.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Stay unbroken, stay consistent</h3>
+            <p>
+              Engineer training loads around your real life so you can stay uninjured, hit your key sessions, and keep stacking weeks and months.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who I Help Section -->
+    <section class="section section-alt" id="who-i-help">
+      <div class="container section-inner">
+        <header class="section-header">
+          <h2>Who Kudu Endurance is for.</h2>
+          <p>
+            Serious riders with serious lives. You don’t have infinite hours, but you do have ambition – and you’re willing to train intelligently.
+          </p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Time-crunched professionals</h3>
+            <p>
+              Lawyers, engineers, founders and finance people juggling long hours who still want to show up strong at big events and local races.
+            </p>
+            <ul class="card-list">
+              <li>Gran fondos & sportives (L’Étape, Dragon Ride, etc.)</li>
+              <li>Efficient use of 6–10 hours/week</li>
+              <li>Structure around work, travel, and family</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Gravel & endurance racers</h3>
+            <p>
+              Riders targeting UCI Gravel World Series events, long gravel weekends, and tough road races who need depth, not just top-end.
+            </p>
+            <ul class="card-list">
+              <li>Fatigue resistance in hours 3–6+</li>
+              <li>Course-specific prep and pacing</li>
+              <li>Fuelling that supports performance and health</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Technical MTB riders</h3>
+            <p>
+              Mountain bikers comfortable on technical terrain who want the fitness to match their skills for long days in big terrain.
+            </p>
+            <ul class="card-list">
+              <li>Fitness for BikePark days & big climbs</li>
+              <li>Balancing intensity with recovery</li>
+              <li>Support for mixed road / gravel / MTB seasons</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coaching Offers Section -->
+    <section class="section" id="coaching">
+      <div class="container section-inner">
+        <header class="section-header">
+          <h2>Coaching built for real lives, not lab conditions.</h2>
+          <p>
+            One-to-one, evidence-informed coaching with a focus on long-term progression. Limited athlete slots to keep attention high and BS low.
+          </p>
+        </header>
+
+        <div class="grid grid-2">
+          <article class="card card-offer">
+            <h3>Foundation Coaching</h3>
+            <p class="card-tagline">Build a durable engine and clear structure.</p>
+            <ul class="card-list">
+              <li>Individualised training plan in TrainingPeaks (or similar)</li>
+              <li>Focus on aerobic base, durability, and injury-resistance</li>
+              <li>Monthly check-in & plan adjustments</li>
+              <li>Email support for questions between calls</li>
+            </ul>
+            <p class="card-price">From £<span>xx</span>/month</p>
+            <a href="contact.html" class="btn btn-outline">Apply for Foundation Coaching</a>
+          </article>
+
+          <article class="card card-offer">
+            <h3>Performance Coaching</h3>
+            <p class="card-tagline">For riders chasing breakthroughs at key events.</p>
+            <ul class="card-list">
+              <li>Everything in Foundation Coaching</li>
+              <li>Higher-touch feedback on key sessions</li>
+              <li>Event-specific build phases and course planning</li>
+              <li>Deeper support on fuelling and race-day execution</li>
+            </ul>
+            <p class="card-price">From £<span>yy</span>/month</p>
+            <a href="contact.html" class="btn btn-outline">Apply for Performance Coaching</a>
+          </article>
+        </div>
+
+        <p class="section-footnote">
+          Pricing and offer structure are evolving – especially for early athletes. If you’re a good fit and willing to give honest feedback, we can talk about flexible rates.
+        </p>
+      </div>
+    </section>
+
+    <!-- Blog Teaser Section -->
+    <section class="section section-alt" id="articles">
+      <div class="container section-inner">
+        <header class="section-header">
+          <h2>Articles & insights.</h2>
+          <p>
+            Occasional deep dives into endurance training, metabolic health, and the realities of training hard while working a demanding job.
+          </p>
+        </header>
+
+        <div class="grid grid-3 blog-teaser-grid">
+          <article class="card card-blog">
+            <h3><a href="blog-low-heart-rate-training.html">Why most cyclists need more low-heart-rate riding.</a></h3>
+            <p class="card-meta">Endurance · Placeholder article</p>
+            <p class="card-excerpt">
+              Too many riders spend their weeks in the grey zone: too hard to recover from, too easy to drive real adaptation...
+            </p>
+            <a href="blog.html" class="card-link">View all articles →</a>
+          </article>
+
+          <article class="card card-blog">
+            <h3><a href="blog-durability-vs-freshness.html">Durability vs “freshness”: what really matters on event day.</a></h3>
+            <p class="card-meta">Durability · Placeholder article</p>
+            <p class="card-excerpt">
+              You don’t race in a lab. You race with fatigue, elevation, imperfect fuelling, and real life in the legs...
+            </p>
+            <a href="blog.html" class="card-link">View all articles →</a>
+          </article>
+
+          <article class="card card-blog">
+            <h3><a href="blog-busy-professionals.html">Training hard with a demanding job (without breaking).</a></h3>
+            <p class="card-meta">Lifestyle · Placeholder article</p>
+            <p class="card-excerpt">
+              The goal isn’t to train like a full-time pro. It’s to train like the best possible version of a busy human...
+            </p>
+            <a href="blog.html" class="card-link">View all articles →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="section section-cta">
+      <div class="container section-inner section-inner-cta">
+        <div class="cta-text">
+          <h2>Think you might be a good fit for Kudu Endurance?</h2>
+          <p>
+            If you’re a serious amateur who wants structured, sceptical, engineering-minded coaching – and you’re willing to be patient and consistent – I’d like to hear from you.
+          </p>
+        </div>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary btn-large">Start a conversation</a>
+          <a href="mailto:you@yourdomain.co.uk" class="cta-email">Or email directly: you@yourdomain.co.uk</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Kudu Endurance. All rights reserved.</p>
+      <p class="footer-note">Evidence-informed endurance coaching for real-world cyclists.</p>
+    </div>
+    <script>
+      // Simple dynamic year for the footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 </html>
